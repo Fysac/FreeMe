@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>FreeMe Test</title>
+</head>
+<body>
+	<h2>Test FreeMe's functionality using this HTML frontend.</h2>
+	<form action="register.php" method="post">
+		<b>Register</b><br>
+		Real name: <input type="text" name="name"><br>
+		Username: <input type="text" name="username"><br>
+		Email: <input type="text" name="email"><br>
+		Password: <input type="password" name="password"><br>
+		Confirm password: <input type="password" name="confirm"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="login.php" method="post">
+		<b>Login</b><br>
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="password"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="logout.php" method="post">
+		<b>Logout</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="addfriend.php" method="post">
+		<b>Add Friend</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		Friend: <input type="text" name="friend"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="getfriends.php" method="get">
+		<b>List Friends</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="updatestatus.php" method="post">
+		<b>Update Status</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		Free (0 or 1): <input type="text" name="free"><br>
+		Timeout: <input type="text" name="timeout"><br>
+		Status: <input type="text" name="status"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="getstatus.php" method="get">
+		<b>Get Friend's Status</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		Friend: <input type="text" name="friend"><br>
+		<input type="submit">
+	</form>
+	<br>
+	<form action="myaccount.php" method="get">
+		<b>My Account</b><br>
+		Username: <input type="text" name="username"><br>
+		Token: <input type="text" name="token"><br>
+		<input type="submit">
+	</form>
+	<br>
+</body>
+</html>
